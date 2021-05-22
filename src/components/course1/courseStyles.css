@@ -1,0 +1,104 @@
+.boddy{
+    background-color: #24272c;
+      overflow-x: hidden;
+} 
+
+.h111{
+    color: white;
+    font-family: 'Arial Narrow'; 
+}
+
+.scrolling-wrapperrr{
+	overflow-x: auto;
+}
+.scrolling-wrapperrr::-webkit-scrollbar {
+    display: none;
+  }
+
+.card-blockk{
+	height: 90%;
+	background-color:darkslategray;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+    box-shadow: 10px 10px 7px black;
+}
+
+.card-blockk:hover{
+    transform: translateY(-50px);
+    box-shadow: none;
+}
+
+.cardd-1{
+	background-color: #0093E9;
+    background-image: linear-gradient(to bottom right,white,lightgray,gray);
+}
+.cardd-1:hover{
+    background-image: linear-gradient(to bottom right, whitesmoke,pink,lightblue,blue);
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+   
+    #mainnn{
+        display: grid !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        width: 100% !important;
+        
+    }
+    .mainnn2{
+         width: 250px !important;
+        margin: 10px !important;
+        height: 650px;
+    }
+    .card-blockk:hover{
+        transform: translateY(0px);
+        box-shadow: none;
+        
+    }
+    .scrolling-wrapperrr{
+        overflow-x: unset !important;
+        
+    }
+    #buttonss{
+        display: none !important;
+    }
+    #sc{
+        display: none;
+    }
+  }
+
+  @media screen  and (min-width:576px) and (max-width: 767px) {
+   
+    .mainnn2{
+        height: 670px  !important;
+    }
+    
+}
+
+@media screen  and (min-width:992px) and (max-width: 1134px) {
+
+.mainnn2{
+   height: 660px !important;
+}
+.courseImg{
+    height: 30%;
+}
+
+}
+
+@media screen  and (min-width:1200px) and (max-width: 1535px) {
+
+    .mainnn2{
+       height: 660px !important;
+    }
+    .courseImg{
+        height: 30%;
+    }
+    
+}

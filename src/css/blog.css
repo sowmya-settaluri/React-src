@@ -1,0 +1,96 @@
+
+.ed-img{
+    width: 100%;
+    /*height: 100%;*/
+    height:550px;
+    object-fit:fill;
+}
+
+.top-navbar{
+    position: relative;
+}
+
+.top-section {   
+    position: relative;
+  }
+  
+.text-block {
+    font-family: 'Original Surfer', cursive; 
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+.bn{
+    font-size: 50px;
+}
+
+.c1{
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+.ci1{
+    background-image:url('https://image.shutterstock.com/image-photo/education-learning-concept-opening-book-600w-1491910001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ci2{
+    background-image: url('https://image.shutterstock.com/image-photo/closeup-coding-on-screen-woman-600w-653784163.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ci3{
+    background-image: url('https://image.shutterstock.com/image-photo/software-source-code-programming-on-600w-634574354.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1b{
+    font-family: 'Original Surfer', cursive;  
+    color: white;
+    font-size: 50px;
+}
+
+.btnn{
+    margin: 40px;
+}
+
+.ccard{
+    width: 20rem;
+}
+
+.containerb{
+   box-shadow: 20px 20px 50px #1d1c1c, 
+    -20px -20px 60px #464444;
+}
+
+.roww{
+    padding: 20px;
+}
+
+.h4b{
+    font-family: 'Prompt', sans-serif;   
+}
+
+.buttonn{
+    font-family: 'Righteous', cursive;
+}
+
+.py-5{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.pz9b7Lkzid9LseZWPh-jsAHaEK&pid=Api&P=0&w=317&h=179');
+}
+
+
+.ab{
+    font-family: 'Righteous', cursive;
+    font-size: 22px;
+}
+
+.nav-item , .navbar-right{
+    margin: 15px;
+}

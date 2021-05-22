@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.ap{
+    font-size: 1.2em;
+}
+
+.nav-item , .navbar-right{
+    margin: 15px;
+}
+body{
+    background-color: #24272c;
+    min-height: 100vh;
+    
+    align-items: center;
+}
+
+.pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px,100%);
+    margin: 5% auto;
+}
+
+.pricing-card{
+    flex: 1;
+    max-width: 360px;
+    max-height: 550px;
+    background-color: #fff;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+}
+
+.pricing-card-header{
+    background-color: hsla(0,0%,100%,.6);
+    display: inline-block;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+}
+
+.pricing-card:hover .pricing-card-header{
+    box-shadow: 0 0 0 .5em #0fbcf9;
+}
+
+.price{
+    font-size: 70px;
+    color: #0fbcf9;
+    margin: 40px 0;
+    transition: .2s linear;
+}
+
+.price sup, .price span{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.pricing-card:hover  .pricing-card:hover .price{
+    color: white;
+}
+
+.pricing-card li{
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.order-btn {
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid #0fbcf9;
+    color: #0fbcf9;
+    padding: 18px 40px;
+    border-radius: 8px;
+    text-transform: uppercase ;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+.order-btn:hover{
+    background-color: #0fbcf9;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+  .navbar a {
+    float: left;
+    margin-right:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+*/
+@media screen and (max-width:1100px){
+    .pricing-card{
+        flex: 100%;
+    }
+    .hii{
+        position: sticky;
+    }
+}
+
+.footer {
+    padding: 90px 0 80px !important;
+    color: #cccccc;
+	background:#111111 ; 
+    align-items: center;
+}
+
+.footer .widget-title {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer .widget-title small {
+    color: #cccccc;
+    display: block;
+    padding: 0 58px;
+    text-transform: uppercase;
+}
+
+.footer .widget-title h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    line-height: 1 !important;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: #cccccc;
+}
+
+.footer-links a:hover,
+.footer a:hover {
+    color: #f4f4f4 !important;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+	padding: 5px 0px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+
+
+.footer-links li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.footer-links i {
+    display: inline-block;
+    width: 25px;
+    margin-right: 10px;
+    border-right: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.copyrights {
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    background-color: #1f1f1f;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+
+
+.footer-distributed .footer-links {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-company-name {
+    font-weight: 300;
+    margin: 0 10px;
+    color: rgb(247, 245, 245);
+    padding: 5px 0px;
+}
+
+
+/* Footer right */
+
+.footer-distributed .footer-right {
+    float: right;
+}
+
+
+.footer-distributed .footer-company-name a{
+	color: #ffffff;
+}
+
+.footer-distributed .footer-company-name a:hover{
+	color: #eea412;
+}
+.footer-links-soi{
+	margin: 0px;
+	padding: 0px;
+}
+.footer-links-soi li{
+	display: inline-block;
+}
+.footer-links-soi li a{
+	background: #ffffff;
+	color: #333333;
+	width: 32px;
+	height: 32px;
+	display: block;
+	font-size: 22px;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 2px;
+}
+.footer-links-soi li a:hover{
+	background: #eea412;
+}
+.footer-links-soi li a:hover i{
+	color: #ffffff;
+	-webkit-transform: rotateY(360deg);
+	transform: rotateY(360deg);
+}
+
+.footer-links-soi li a i{
+	-webkit-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+.footer-center{
+	text-align: center;
+}
